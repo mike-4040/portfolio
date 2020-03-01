@@ -1,4 +1,17 @@
+# Mike Kravtsov Portfolio
+
+## Deployment
+
+Automatically deployed at Heroku from branch `master`.
+
+Accecible at: https://mike4040-portfolio.herokuapp.com/
+
+## Devepoment
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+________
 
 ## Available Scripts
 
