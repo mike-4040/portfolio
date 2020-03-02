@@ -7,12 +7,11 @@ const useStyles = makeStyles(theme => ({
     display: 'flex'
   },
   appBar: {
-    zIndex: 1500
+    zIndex: theme.zIndex.drawer + 1
   },
   drawer: {
     width: drawerWidth,
-    flexShrink: 0,
-    zIndex: 1300
+    flexShrink: 0
   },
   drawerPaper: {
     width: drawerWidth
