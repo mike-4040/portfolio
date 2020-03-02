@@ -1,16 +1,14 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
-import useStyles from '../styles/useStyles';
-
 import About from './About';
 import Projects from './Projects';
 
-export default function Content() {
-  const classes = useStyles();
+export default function Content(props) {
 
   return (
-    <main className={classes.content}>
+    <main className={props.classes.content}>
+      <div className={props.classes.toolbar} />
       <About />
       <Projects />
       <Typography paragraph>

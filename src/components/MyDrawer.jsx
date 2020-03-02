@@ -1,22 +1,19 @@
 import React from 'react';
 import Drawer from '@material-ui/core/Drawer';
 
-import useStyles from '../styles/useStyles';
-
 import Menu from './Menu';
 
-export default function MyDrawer() {
-  const classes = useStyles();
+export default function MyDrawer(props) {
 
   return (
     <Drawer
-      className={classes.drawer}
+      className={props.classes.drawer}
       variant='permanent'
       classes={{
-        paper: classes.drawerPaper
+        paper: props.classes.drawerPaper
       }}
     >
-      <div className={classes.toolbar} />
+      <div className={props.classes.toolbar} />
       <Menu />
     </Drawer>
   );

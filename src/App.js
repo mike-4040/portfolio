@@ -13,9 +13,9 @@ export default function App() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <MyBar style={{ zIndex: 2 }} />
-      <MyDrawer style={{ zIndex: 10 }} />
-      <Content />
+      <MyBar classes={classes} />
+      <MyDrawer classes={classes} />
+      <Content classes={classes} />
     </div>
   );
 }
