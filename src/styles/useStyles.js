@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex'
   },
   appBar: {
-    zIndex: theme.zIndex.drawer + 1
+    zIndex: theme.zIndex.drawer + 1 + '!important'
   },
   drawer: {
     width: drawerWidth,

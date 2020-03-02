@@ -8,10 +8,10 @@ import Contact from './Contact'
 export default function Content(props) {
 
   return (
-    <main className={props.classes.content}>
+    <main className={props.classes.content} >
       <div className={props.classes.toolbar} />
       <About />
-      <Projects classes={props.classes}/>
+      <Projects/>
       <Education />
       <Contact />
     </main>
