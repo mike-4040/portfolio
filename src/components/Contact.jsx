@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 export default function Contact() {
   return (
     <article>
-      <Typography variant='h2' id='contact'>
+      <Typography variant='h2'>
         Contact
       </Typography>
       <Typography paragraph>

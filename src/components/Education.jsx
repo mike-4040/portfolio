@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 export default function Education() {
   return (
     <article>
-      <Typography variant='h2' id='education'>
+      <Typography variant='h2'>
         Education
       </Typography>
       <Typography paragraph>

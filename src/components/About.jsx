@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 export default function About() {
   return (
     <article>
-      <Typography variant='h2' id='about'>
+      <Typography variant='h2'>
         About
       </Typography>
       <Typography paragraph>

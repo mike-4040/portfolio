@@ -17,7 +17,7 @@ export default function Projects() {
   const classes = useStyles();
   return (
     <article>
-      <Typography variant='h2' id='projects'>
+      <Typography variant='h2'>
         Projects
       </Typography>
       <div className={classes.root}>

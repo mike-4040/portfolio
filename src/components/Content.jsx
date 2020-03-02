@@ -8,11 +8,14 @@ import Contact from './Contact'
 export default function Content(props) {
 
   return (
-    <main className={props.classes.content} >
-      <div className={props.classes.toolbar} />
+    <main className={props.classes.content}>
+      <div className={props.classes.toolbar} id='about' />
       <About />
-      <Projects/>
+      <div className={props.classes.toolbar} id='projects' />
+      <Projects />
+      <div className={props.classes.toolbar} id='education' />
       <Education />
+      <div className={props.classes.toolbar} id='contact' />
       <Contact />
     </main>
   );
