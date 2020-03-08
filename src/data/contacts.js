@@ -4,7 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailOutlineRoundedIcon from '@material-ui/icons/MailOutlineRounded';
 import PhoneRoundedIcon from '@material-ui/icons/PhoneRounded';
 
-export const contacts = [
+export default [
   {
     name: 'phone',
     contact: '619.578.4200',

@@ -12,8 +12,6 @@ import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LanguageRoundedIcon from '@material-ui/icons/LanguageRounded';
 
-import bamazon from '../static/bamazon.png'
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 345
@@ -25,14 +23,13 @@ const useStyles = makeStyles({
 
 export default function MyCard({project}) {
   const classes = useStyles();
-
   return (
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={bamazon}
-          title='Contemplative Reptile'
+          image={project.picture}
+          title={project.name}
         />
         <CardContent>
           <Typography gutterBottom variant='h5' component='h2'>

@@ -10,7 +10,7 @@ import Avatar from '@material-ui/core/Avatar';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
-import { contacts } from '../data/contacts';
+import contacts from '../data/contacts';
 
 const useStyles = makeStyles(theme => ({
   root: {

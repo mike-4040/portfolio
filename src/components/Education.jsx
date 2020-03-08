@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 
 import EducationCard from './EducationCard';
 
-import { education } from '../data/education';
+import education from '../data/education';
 
 const useStyles = makeStyles(theme => ({
   root: {

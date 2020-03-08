@@ -1,4 +1,4 @@
-export const education = [
+export default [
   {
     when: '2019-08 - 2019-11',
     result: 'Award of Completion: Web Development',
