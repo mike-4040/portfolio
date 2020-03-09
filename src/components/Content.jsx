@@ -3,7 +3,7 @@ import React from 'react';
 import About from './About';
 import Projects from './Projects';
 import Education from './Education';
-import Contact from './Contact'
+import Contact from './Contact';
 
 export default function Content(props) {
 
