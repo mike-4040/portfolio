@@ -1,6 +1,8 @@
 import { Project } from '../utils/utils';
 import thePsychicGamePic from '../static/the_psychic_game.png';
 import crystalCollectorPic from '../static/crystal_collector.png';
+import triviaGamePic from '../static/trivia_game.png';
+import giphyPic from '../static/giphy.png';
 export default [
   new Project(
     'The Psychic Game',
@@ -15,5 +17,19 @@ export default [
     'HTML + JS. jQuery. Deployment with GitPages.',
     'https://mike-4040.github.io/unit-4-game/',
     'https://github.com/mike-4040/unit-4-game'
+  ),
+  new Project(
+    'Trivia Game',
+    triviaGamePic,
+    'HTML + JS, Bootsrap, jQuery. Deployed with GitPages.',
+    'https://mike-4040.github.io/trivia-game/',
+    'https://github.com/mike-4040/trivia-game'
+  ),
+  new Project(
+    'GIPHY API',
+    giphyPic,
+    'HTML, Bootsrap, jQuery, API. Deployed with GitPages.',
+    'https://mike-4040.github.io/giphy/',
+    'https://github.com/mike-4040/giphy'
   )
 ];
