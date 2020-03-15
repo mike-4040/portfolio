@@ -13,13 +13,16 @@ export class menuItem {
  * @param {string} description
  * @param {string} deployURI
  * @param {string} repoURI
+ * @param {boolean} show - to show this project or not
+ * @returns {object}
  */
 export class Project {
-  constructor(name, picture, description, deployURI, repoURI) {
+  constructor(name, picture, description, deployURI, repoURI, show) {
     this.name = name;
     this.picture = picture;
     this.description = description;
     this.deployURI = deployURI;
     this.repoURI = repoURI;
+    this.show = show;
   }
 }

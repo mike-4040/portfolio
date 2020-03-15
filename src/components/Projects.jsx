@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import projects from '../data/projects';
 
-import MyCard from './MyCard';
+import MyCard from './ProjectCard';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -20,6 +20,7 @@ export default function Projects() {
       <div className={classes.root}>
         <Grid container spacing={3}>
           {projects.map(project => (
+            project.show &&
             <Grid key={project.name} item sm={6} md={4}>
               <MyCard project={project}/>
             </Grid>
