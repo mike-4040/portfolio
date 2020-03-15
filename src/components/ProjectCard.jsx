@@ -21,7 +21,7 @@ const useStyles = makeStyles({
   }
 });
 
-export default function MyCard({ project }) {
+export default function ProjectCard({ project }) {
   const classes = useStyles();
   return (
     <Card className={classes.root}>
@@ -44,7 +44,6 @@ export default function MyCard({ project }) {
         {project.repoURI && (
           <Button
             variant='contained'
-            color='default'
             className={classes.button}
             startIcon={<GitHubIcon />}
             href={project.repoURI}
@@ -55,7 +54,6 @@ export default function MyCard({ project }) {
         )}
         <Button
           variant='contained'
-          color='default'
           className={classes.button}
           startIcon={<LanguageRoundedIcon />}
           href={project.deployURI}
