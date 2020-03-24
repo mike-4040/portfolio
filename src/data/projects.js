@@ -8,6 +8,8 @@ import friendsFinderPic from '../static/friends_finder.png';
 import burgerPic from '../static/burger.png';
 import officeBrunchPic from '../static/office_brunch.png';
 import bringPic from '../static/bring.png';
+import lionPic from '../static/lion.png';
+
 export default [
   new Project(
     'The Psychic Game',
@@ -31,7 +33,7 @@ export default [
     'HTML + JS, Bootsrap, jQuery. Deployed with GitPages.',
     'https://mike-4040.github.io/trivia-game/',
     'https://github.com/mike-4040/trivia-game',
-    true
+    false
   ),
   new Project(
     'GIPHY API',
@@ -79,6 +81,14 @@ export default [
     'React, Axios, node, express, mongoDB, mongoose, SendGrid, Heroku Scheduler.',
     'http://bring-ucsd.herokuapp.com/',
     'https://github.com/mike-4040/ucsd-final-project',
+    true
+  ),
+  new Project(
+    'Like It Or Not',
+    lionPic,
+    'Work in progress: React, Node, Express, Passport, JWT, mongoDB, mongoose.',
+    'https://ka-mk-lion.herokuapp.com/',
+    'https://github.com/mike-4040/like-it-or-not',
     true
   )
 ];
