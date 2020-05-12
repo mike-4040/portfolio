@@ -15,6 +15,7 @@ import { mdiGit } from '@mdi/js';
 import { mdiGithub } from '@mdi/js';
 import { mdiDatabase } from '@mdi/js';
 import { mdiCloudOutline } from '@mdi/js';
+import { mdiGraphql } from '@mdi/js';
 
 export default [
   {
@@ -33,6 +34,11 @@ export default [
     icon: mdiLanguageJavascript
   },
   {
+    skill: 'TypeScript',
+    level: 1,
+    icon: mdiLanguageTypescript
+  },
+  {
     skill: 'Bootstrap',
     level: 3,
     icon: mdiBootstrap
@@ -42,11 +48,7 @@ export default [
     level: 3,
     icon: mdiMaterialUi
   },
-  {
-    skill: 'TypeScript',
-    level: 1,
-    icon: mdiLanguageTypescript
-  },
+
   {
     skill: 'React',
     level: 2,
@@ -60,6 +62,16 @@ export default [
   {
     skill: 'REST API',
     level: 3,
+    icon: mdiApi
+  },
+  {
+    skill: 'graphql',
+    level: 1,
+    icon: mdiGraphql
+  },
+  {
+    skill: 'Apigee',
+    level: 2,
     icon: mdiApi
   },
   {

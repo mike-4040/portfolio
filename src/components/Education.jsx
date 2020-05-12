@@ -13,6 +13,8 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+const educationSorted = education.sort((a, b) => b.when - a.when);
+
 export default function Education() {
   const classes = useStyles();
   return (
@@ -20,8 +22,8 @@ export default function Education() {
       <Typography variant='h2'>Education</Typography>
       <div className={classes.root}>
         <Grid container spacing={3}>
-          {education.map(school => (
-            <Grid key={school.school}item sm={12} md={6}>
+          {educationSorted.map(school => (
+            <Grid key={school.school} item sm={12} md={6}>
               <EducationCard school={school} />
             </Grid>
           ))}
