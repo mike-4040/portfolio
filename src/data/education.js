@@ -8,5 +8,11 @@ export default [
     when: '1987',
     result: 'Master of Science: Engineering Physics',
     school: 'National University of Science And Technology - Moscow, Russia'
+  },
+  {
+    when: '2020',
+    result:
+      'Certificate: MongoDB for Javascript Developers, Cluster Administration, Aggregation Framework, Performance, Data Modeling',
+    school: 'MongoDB University'
   }
 ];
