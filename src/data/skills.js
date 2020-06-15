@@ -81,7 +81,7 @@ export default [
   },
   {
     skill: 'PostgreSQL',
-    level: 1,
+    level: 2,
     icon: mdiDatabase
   },
   {
