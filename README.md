@@ -2,10 +2,11 @@
 
 ## Deployment
 
-Automatically deployed at Heroku from branch `master`.
+```
+npm run deploy
+```
 
-Accecible at: https://mike4040-portfolio.herokuapp.com/
-
+Accessible at https://mike-4040.github.io/portfolio/
 ## Stack
 
 - React
